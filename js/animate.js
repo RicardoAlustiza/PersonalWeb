@@ -44,6 +44,24 @@ $(document).ready(function() {
     $("#btnexperiencie3").waypoint(function() {
         $('#btnexperiencie3').addClass('zoomIn');
     }, { offset: '100%' });
+    $("#trajectorytext1").waypoint(function() {
+        $('#trajectorytext1').addClass('fadeInRight');
+    }, { offset: '100%' });
+    $("#bullet1").waypoint(function() {
+        $('#bullet1').addClass('zoomIn');
+    }, { offset: '100%' });
+    $("#btnexperiencie1").waypoint(function() {
+        $('#btnexperiencie1').addClass('zoomIn');
+    }, { offset: '100%' });
+    $("#trajectorytextR").waypoint(function() {
+        $('#trajectorytextR').addClass('fadeInRight');
+    }, { offset: '100%' });
+    $("#bulletR").waypoint(function() {
+        $('#bulletR').addClass('zoomIn');
+    }, { offset: '100%' });
+    $("#btnexperiencieR").waypoint(function() {
+        $('#btnexperiencieR').addClass('zoomIn');
+    }, { offset: '100%' });
 });
 
 document.addEventListener('DOMContentLoaded', function() {

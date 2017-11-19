@@ -495,21 +495,12 @@ body {
     display: inline;
 }
 
-@media only screen and (max-width: 768px) {
-    #trajectorytext1 {
-        position: absolute;
-        font-size: 80%;
-        margin: 0;
-    }
-    #trajectorytext2 {
-        position: absolute;
-        font-size: 80%;
-        margin: 0;
-    }
+@media only screen and (max-width: 766px) {
     #trajectorytext3 {
-        position: absolute;
-        font-size: 80%;
-        margin: 0;
+        display: none;
+    }
+    #bullet3 {
+        display: none;
     }
     .circle {
         width: 30px;
@@ -524,6 +515,18 @@ body {
         display: none;
     }
     #btnexperiencie2 {
+        display: none;
+    }
+    #btnexperiencie3 {
+        display: none;
+    }
+    #btnexperiencieR {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #trajectoryR {
         display: none;
     }
 }
