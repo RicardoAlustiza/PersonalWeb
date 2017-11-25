@@ -289,6 +289,13 @@ hr.small {
     margin-top: 0;
 }
 
+.post-preview>.post-meta2 {
+    color: #ffffff;
+    font-size: 19px;
+    font-style: Sans-serif;
+    margin-top: 0;
+}
+
 .post-preview>.post-meta>a {
     text-decoration: none;
     color: #333333;
