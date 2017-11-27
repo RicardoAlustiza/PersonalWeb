@@ -502,11 +502,22 @@ body {
     display: inline;
 }
 
+#trajectorytext4 {
+    position: absolute;
+    display: inline;
+}
+
 @media only screen and (max-width: 766px) {
     #trajectorytext3 {
         display: none;
     }
     #bullet3 {
+        display: none;
+    }
+    #trajectorytext4 {
+        display: none;
+    }
+    #bullet4 {
         display: none;
     }
     .circle {
@@ -527,13 +538,22 @@ body {
     #btnexperiencie3 {
         display: none;
     }
+    #btnexperiencie4 {
+        display: none;
+    }
     #btnexperiencieR {
+        display: none;
+    }
+    #btnexperiencieR2 {
         display: none;
     }
 }
 
 @media only screen and (min-width: 768px) {
     #trajectoryR {
+        display: none;
+    }
+    #trajectoryR2 {
         display: none;
     }
 }
