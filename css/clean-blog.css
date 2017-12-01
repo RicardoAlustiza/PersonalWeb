@@ -511,6 +511,142 @@ body {
     display: inline;
 }
 
+#entertaimentimg {
+    position: relative;
+}
+
+#entertaimentimg>h4 {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 4;
+}
+
+#entertaimentimg>span {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 2;
+}
+
+#scienceimg {
+    position: relative;
+}
+
+#scienceimg>h4 {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 4;
+}
+
+#scienceimg>span {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 2;
+}
+
+#projectsimg {
+    position: relative;
+}
+
+#projectsimg>h4 {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 4;
+}
+
+#projectsimg>span {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 2;
+}
+
+#socialimg {
+    position: relative;
+}
+
+#socialimg>h4 {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 4;
+}
+
+#socialimg>span {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 2;
+}
+
+#travelimg {
+    position: relative;
+}
+
+#travelimg>h4 {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 4;
+}
+
+#travelimg>span {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 2;
+}
+
+#workspaceimg {
+    position: relative;
+}
+
+#workspaceimg>h4 {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 4;
+}
+
+#workspaceimg>span {
+    position: absolute;
+    bottom: 20px;
+    color: #ffff;
+    padding: 2px 20px;
+    font-weight: helvetica;
+    line-height: 2;
+}
+
+#img {
+    position: relative;
+}
+
 @media only screen and (max-width: 766px) {
     #trajectorytext3 {
         display: none;
