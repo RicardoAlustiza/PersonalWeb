@@ -647,6 +647,10 @@ body {
     position: relative;
 }
 
+#featurette-2>div>h2>span {
+    color: rgb(248, 232, 232);
+}
+
 @media only screen and (max-width: 766px) {
     #trajectorytext3 {
         display: none;
@@ -681,12 +685,6 @@ body {
     #btnexperiencie4 {
         display: none;
     }
-    #btnexperiencieR {
-        display: none;
-    }
-    #btnexperiencieR2 {
-        display: none;
-    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -694,6 +692,18 @@ body {
         display: none;
     }
     #trajectoryR2 {
+        display: none;
+    }
+    #btnexperiencie1_2 {
+        display: none;
+    }
+    #btnexperiencie2_2 {
+        display: none;
+    }
+    #btnexperiencieR {
+        display: none;
+    }
+    #btnexperiencieR2 {
         display: none;
     }
 }

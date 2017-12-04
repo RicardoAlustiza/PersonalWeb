@@ -80,6 +80,30 @@ $(document).ready(function() {
     $("#btnexperiencieR2").waypoint(function() {
         $('#btnexperiencieR2').addClass('zoomIn');
     }, { offset: '100%' });
+    $("#entertaimentimg").waypoint(function() {
+        $('#entertaimentimg').addClass('fadeInUp');
+    }, { offset: '100%' });
+    $("#scienceimg").waypoint(function() {
+        $('#scienceimg').addClass('fadeInUp');
+    }, { offset: '100%' });
+    $("#projectsimg").waypoint(function() {
+        $('#projectsimg').addClass('fadeInUp');
+    }, { offset: '100%' });
+    $("#socialimg").waypoint(function() {
+        $('#socialimg').addClass('fadeInUp');
+    }, { offset: '100%' });
+    $("#travelimg").waypoint(function() {
+        $('#travelimg').addClass('fadeInUp');
+    }, { offset: '100%' });
+    $("#workspaceimg").waypoint(function() {
+        $('#workspaceimg').addClass('fadeInUp');
+    }, { offset: '100%' });
+    $("#btnexperiencie1_2").waypoint(function() {
+        $('#btnexperiencie1_2').addClass('zoomIn');
+    }, { offset: '100%' });
+    $("#btnexperiencie2_2").waypoint(function() {
+        $('#btnexperiencie2_2').addClass('zoomIn');
+    }, { offset: '100%' });
 });
 
 document.addEventListener('DOMContentLoaded', function() {
