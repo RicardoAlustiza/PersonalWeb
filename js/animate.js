@@ -104,6 +104,30 @@ $(document).ready(function() {
     $("#btnexperiencie2_2").waypoint(function() {
         $('#btnexperiencie2_2').addClass('zoomIn');
     }, { offset: '100%' });
+    $("#consultancy").waypoint(function() {
+        $('#consultancy').addClass('fadeIn');
+    }, { offset: '100%' });
+    $("#multiplataforma").waypoint(function() {
+        $('#multiplataforma').addClass('fadeIn');
+    }, { offset: '100%' });
+    $("#stilish").waypoint(function() {
+        $('#stilish').addClass('fadeIn');
+    }, { offset: '100%' });
+    $("#paper").waypoint(function() {
+        $('#paper').addClass('fadeIn');
+    }, { offset: '100%' });
+    $("#coaching").waypoint(function() {
+        $('#coaching').addClass('fadeIn');
+    }, { offset: '100%' });
+    $("#WebDev").waypoint(function() {
+        $('#WebDev').addClass('fadeIn');
+    }, { offset: '100%' });
+    $("#servicebtn").waypoint(function() {
+        $('#servicebtn').addClass('fadeIn');
+    }, { offset: '100%' });
+    $("#contacto").waypoint(function() {
+        $('#contacto').addClass('fadeInDown');
+    }, { offset: '100%' });
 });
 
 document.addEventListener('DOMContentLoaded', function() {
