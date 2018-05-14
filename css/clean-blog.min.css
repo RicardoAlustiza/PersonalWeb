@@ -4,8 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
- @import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
 a,
 body {
     color: #333
@@ -562,4 +561,22 @@ img::-moz-selection {
 .skewed .top .content-wrap {
     transform: skew(30deg);
     margin-left: 1000px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../img/home-background.png");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 1200px) {
+    .parallax {
+        background-attachment: scroll;
+    }
 }
