@@ -303,8 +303,8 @@ hr.small2 {
 .post-preview>.post-meta2 {
     color: #ffffff;
     font-size: 19px;
-    font-style: Sans-serif;
     margin-top: 0;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .post-preview>.post-meta>a {
