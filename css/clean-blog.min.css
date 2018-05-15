@@ -575,6 +575,34 @@ img::-moz-selection {
     background-size: cover;
 }
 
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #c76278d8;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #822136;
+}
+
 @media only screen and (max-width: 1200px) {
     .parallax {
         background-attachment: scroll;
